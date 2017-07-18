@@ -1,0 +1,22 @@
+
+div.mod{
+    margin-left: -40px;
+    margin-right: 40px;
+}
+
+aside.mod{
+    margin: 40px 0 40px 0;
+    padding: 10px;
+}
+
+aside.mod ul{
+    display: block;
+    background: #2c3e50;
+    margin: 0;
+    padding: 10px 0;
+}
+
+aside.mod ul a{
+    padding: 10px;
+}
+

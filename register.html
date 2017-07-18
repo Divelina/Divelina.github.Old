@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html>
+    <head lang="en">
+        <title>Divelina's Test Blog</title>
+        <link type="text/css" rel="stylesheet" href="styles/style.css" />
+        <link type="text/css" rel="stylesheet" href="styles/aside-mod.css" />
+        <script src="scripts/jquery-1.10.2.js"></script>
+        <script src="scripts/bootstrap.js"></script>
+    </head>
+    <body>
+        <header>
+        <div class="navbar navbar-default navbar-fixed-top text-uppercase">
+            <div class="container">
+                <div class="navbar-header">
+                    <a href="index.html" class="navbar-brand"> Divelina's Test Blog </a>
+
+                    <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                    </button>
+                </div>
+
+                <div class="navbar-collapse collapse">
+                    <ul class="nav navbar-nav navbar-right">
+                        <li><a href="#">Register</a></li>
+                        <li><a href="login.html">Login</a></li>
+                    </ul>
+                </div>
+
+            </div>
+        </div>
+        </header>
+
+        <main>
+           <div class="container body-content span=8 offset=2">
+
+               <div class="col-md-2 mod">
+                   <aside class="sidebar-nav navbar-collapse mod">
+                       <h4>Recent articles</h4>
+                       <ul class="nav navbar-nav navbar-left ul-mod">
+                           <li class="li-mod"><a href="viewpost.html">Why change my profession?</a></li>
+                           <li class="li-mod"><a href="viewpost2.html">Why coding?</a></li>
+                       </ul>
+                   </aside>
+               </div>
+
+               <form class="form-horizontal">
+                   <fieldset>
+                        <legend>Register</legend>
+                        
+                        <div class="form-group">
+                            <label class="col-sm-4 control-label">Email</label>
+                            <div class="col-sm-4">
+                                <input type="text" class="form-control" id="registerEmail" placeholder="Email"/>
+                            </div>
+                        </div>
+
+                        <div class="form-group">
+                            <label class="col-sm-4 control-label">Full Name</label>
+                            <div class="col-sm-4">
+                                <input type="text" class="form-control" id="registerFullName" placeholder="Full Name"/>
+                            </div>
+                        </div>
+
+                        <div class="form-group">
+                            <label class="col-sm-4 control-label">Password</label>
+                            <div class="col-sm-4">
+                                <input type="password" class="form-control" id="registerPassword" placeholder="Password"/>
+                            </div>
+                        </div>
+
+                        <div class="form-group">
+                            <label class="col-sm-4 control-label">Confirm Password</label>
+                            <div class="col-sm-4">
+                                <input type="password" class="form-control" id="registerConfirmPassword" placeholder="Confirm Password"/>
+                            </div>
+                        </div>
+
+                            <div class="col-sm-4 col-sm-offset-4">
+                                <button type="reset" class="btn btn-default">Cancel</button>
+                                <button type="submit" class="btn btn-primary">Register</button>
+                            </div>
+                        <div class="form-group">
+
+                        </div>
+
+                   </fieldset>
+               </form>
+           </div>
+        </main>
+
+        <footer>
+            <div class="container modal-footer">
+                <p>&copy; 2017 - Divelina using SoftUni tutorial </p>
+            </div>
+        </footer>
+    </body>
+</html>
